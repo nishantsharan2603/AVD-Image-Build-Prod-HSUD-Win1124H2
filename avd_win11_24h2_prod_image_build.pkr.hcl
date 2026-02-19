@@ -100,7 +100,7 @@ build {
         "Start-Sleep -seconds 30",
         "& .\\AIB_AVD_HSUD_InstallApps.ps1"
         ]
-        timeout          = "2h"
+        timeout          = "4h"
         valid_exit_codes = [0, 3010]
     }
 
